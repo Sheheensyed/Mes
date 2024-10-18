@@ -3,6 +3,7 @@
     padding: 0px;
     /* font-family: "Roboto Mono", monospace; */
     font-family: "SUSE", sans-serif;
+    box-sizing: border-box;
 }
 
 .collapse .nav-link {
@@ -55,12 +56,13 @@
 
 #welcome {
     color: white;
-    margin-top: 22%;
+    margin-top: 20%;
     margin-left: 5%;
+    text-align: center;
 }
 
 #welcome h4 {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 #welcome h1 {
@@ -74,6 +76,7 @@
 
 .About {
     font-size: 50px;
+    text-align: center;
 }
 
 .cards {
@@ -160,6 +163,16 @@
     margin-bottom: 5%;
 }
 
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    text-decoration: none;
+    color: rgba(255, 0, 55, 0.593);
+    transition: 0.2s;
+}
+
 @media(min-width:200px) and (max-width:576px) {
     #welcome h1 {
         font-size: 46px;
@@ -190,7 +203,7 @@
 }
 
 @media(min-width:577px) and (max-width:768px){
-    
+
 }
 
 
